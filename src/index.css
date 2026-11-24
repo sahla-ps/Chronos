@@ -1,0 +1,31 @@
+
+@import "tailwindcss";
+
+/* Custom fonts */
+@font-face {
+  font-family: "Bastoni";
+  src: url("/fonts/Bastoni.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  /* Typography */
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Bastoni", serif;
+  --font-logo: "Cormorant Garamond", serif;
+
+  /* Brand colours */
+  --color-maroon: #3D1513;
+  --color-cream: #F7F1E7;
+
+  /* Additional colours */
+  --color-gold: #FFC400;
+  --color-brand-red: #E5171F;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+}
